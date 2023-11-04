@@ -9,4 +9,4 @@ text = gets.chomp
 p "Please enter a number to shift the characters within the string..."
 idx_shift = gets.chomp.to_i
 
-caesar_cipher(text, idx_shift)
+p caesar_cipher(text, idx_shift)
